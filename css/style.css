@@ -5,3 +5,25 @@
   font-family: Helvetica;
   background-color: #FAFAFA;
 }
+
+.main-container {
+  display: flex;
+  margin-top: 30px;
+}
+.banner-container,
+.form-container{
+  flex:1 1 0;
+  width: 50%;
+}
+
+.banner-container{
+  text-align: right;
+}
+
+.banner-container img {
+  margin-right: -15px;
+}
+
+.form-container{
+  text-align: center;
+}
