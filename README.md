@@ -1,2 +1,2 @@
-# clone-home-instagram
+# Clone home Instagram
 Clone da página home do Instagram.
