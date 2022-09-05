@@ -8,7 +8,7 @@
 
 .main-container {
   display: flex;
-  margin-top: 30px;
+  margin: 32px auto 0;
 }
 
 .banner-container,
@@ -29,7 +29,8 @@
   text-align: center;
 }
 
-.form-box {
+.form-box,
+.register-container {
   background-color: white;
   border: 1px solid #DBDBDB;
   width: 350px;
@@ -81,7 +82,7 @@
   margin: 25px auto 35px;
 }
 
-.separator span{
+.separator span {
   position: absolute;
   text-transform: uppercase;
   color: #BBB;
@@ -100,7 +101,7 @@
 .facebook-login a {
   text-decoration: none;
   color: #385185;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -122,7 +123,85 @@
   font-size: 12px;
 }
 
-.forgot-paswword a{
+.forgot-paswword a {
   text-decoration: none;
   color: #00376b
+}
+
+.register-container {
+  margin-top: 10px;
+  padding: 25px;
+}
+
+.register-container p {
+  font-size: 14px;
+  color: #262626;
+}
+
+.register-container a {
+  color: #0095f6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.get-app-container {
+  text-align: center;
+  width: 350px;
+}
+
+.get-app-container p {
+  color: #262626;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.get-app-container a {
+  text-decoration: none;
+}
+
+.get-app-container img {
+  width: 136px;
+  height: 40px;
+}
+
+footer {
+  text-align: center;
+  width: 65%;
+  margin: 50px auto;
+}
+
+footer .footer-links {
+  list-style: none;
+}
+
+footer .footer-links li {
+  display: inline-block;
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+
+footer .footer-links a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.container-copyright {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 60px;
+  font-size: 12px;
+}
+
+.languages {
+  outline:none;
+  border: 0;
+  font-size: 12px;
+  color: #8e8e8e;
+  margin-right: 15px;
+}
+
+.copyright  {
+  font-size: 12px;
+  color: #8e8e8e
 }
