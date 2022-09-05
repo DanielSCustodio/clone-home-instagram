@@ -205,7 +205,11 @@ footer .footer-links a {
   font-size: 12px;
   color: #8e8e8e
 }
-
+input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+border-color: #8e8e8e;
+  outline: 0;
+}
 @media(max-width:450px){
   .banner-container{
     display: none;
