@@ -73,8 +73,9 @@
 }
 
 .login-form input[type="submit"]:hover {
-  background-color:#0195F6;
+  background-color: #0195F6;
 }
+
 .separator {
   position: relative;
 }
